@@ -1,0 +1,112 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+#container{
+    display: grid;
+    justify-content:center;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    grid-template-columns: repeat(3,auto);
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 2px solid white;
+    color: white;
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.cell:hover{
+    background-color: rgb(161, 148, 174);
+    cursor: pointer;
+}
+
+.bt-0{
+    border-top: 0;
+}
+
+.bl-0{
+    border-left: 0;
+}
+
+.br-0{
+    border-right: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
+    </style>
+</head>
+<body>
+    
+    <script src="./tictac1.js"></script>
+    <div id="container">
+        <div class="cell bt-0 bl-0" cellIndex="0">X</div>
+        <div class="cell bt-0" cellIndex="1"></div>
+        <div class="cell bt-0 br-0" cellIndex="2"></div>
+        <div class="cell bl-0" cellIndex="3"></div>
+        <div class="cell " cellIndex="4"></div>
+        <div class="cell br-0" cellIndex="5"></div>
+        <div class="cell bl-0 bb-0" cellIndex="6"></div>
+        <div class="cell bb-0" cellIndex="7"></div>
+        <div class="cell br-0 bb-0" cellIndex="8"></div>
+          <h2 id="statusText"></h2>
+        <button id="restartBtn">Restart</button>
+    </div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./tictac.css">
+</head>
+<body>
+    <div id="gameContainer">
+        <h1>Tic Tac Toe </h1>
+        <div id="cellContainer">
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+        </div>
+        <h2 id="statusText"></h2>
+        <button id="restartBtn">Restart</button>
+    </div>
+    <script src="./tictac1.js"></script>
+</body>
+</html>
